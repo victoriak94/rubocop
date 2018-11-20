@@ -24,7 +24,7 @@ class Airplane
     [
       mila: 'vegetarian',
       paul: 'chicken',
-       egon: 'chicken',
+      egon: 'chicken',
       sama: 'chicken'
     ]
   end
@@ -32,7 +32,7 @@ class Airplane
   def self.ground_all
     @@all.each do |airplane|
       airplane.land
-      end
+    end
   end
 
   def self.get_planes_for_ten_airports
